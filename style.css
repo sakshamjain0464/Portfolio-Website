@@ -920,3 +920,38 @@ footer{
     font-size: 0.9rem;
     letter-spacing: 2px;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 800px){
+    #home, #projects, #about, #skills, #contact{
+        display: none;
+    }
+
+    nav, footer, hr{
+        display: none;
+    }
+
+    body{
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    body::before{
+        content: "Website for phone is under-construction, Please Use on PC!";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 3px;
+        word-wrap: break-word;
+        padding: 20px;
+    }
+}
