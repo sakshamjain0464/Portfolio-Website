@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" , user-scale="none">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="js_classes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Saksham Jain</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-content">
+            <div class="logo-container">
+                <img src="./images/logo-black.jpg" alt="Logo">
+                <h1>Saksham Jain.</h1>
+            </div>
+            <div class="nav-links-container">
+                <ul>
+                    <li class="nav-links" id="navlink1"><a href="#home">Home</a></li>
+                    <li class="nav-links" id="navlink2"><a href="#about">About</a></li>
+                    <li class="nav-links" id="navlink3"><a href="#skills">Skills</a></li>
+                    <li class="nav-links" id="navlink4"><a href="#projects">Projects</a></li>
+                    <li class="nav-links" id="navlink5"><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Hero Section  -->
+
+    <section class="hero" id="home">
+        <div class="socials-container">
+            <a href="https://github.com/sakshamjain0464" target="_blank">
+                <div class="socials" id="social-1">
+                    <i class="fa fa-github"></i>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/in/saksham-jain-15bab2205/" target="_blank">
+                <div class="socials" id="social-2">
+                    <i class="fa fa-linkedin"></i>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/in/saksham-jain-15bab2205/" target="_blank">
+                <div class="socials" id="social-3">
+                    <i class="fa fa-instagram"></i>
+                </div>
+            </a>
+        </div>
+        <div class="main">
+            <div class="main-txt">
+                <p id="hi">Hi.</p>
+                <p id="intro">I am <span>Saksham Jain</span></p>
+                <p id="i_am">I am a <span id="typing"></span></p>
+                <a href="#contact">
+                    <div class="main-btn">
+                        <p><i class="fa fa-phone"></i>Contact me</p>
+                    </div>
+                </a>
+            </div>
+            <div class="main-img">
+                <img src="./images/my-1.png" alt="">
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- About Section -->
+
+    <section class="" id="about">
+        <div class="about-head">
+            <h3>About Me</h3>
+        </div>
+        <div class="about-content">
+            <div class="about-para">
+                <p class="para">
+                    <span id="hello">Hello there!</span><br>
+                    I'm <b>Saksham Jain</b>, and I'm currently pursuing my <b>B.Tech in Computer Science and
+                        Engineering at <a href="https://www.amity.edu/gwalior/" target="_blank">Amity University Madhya
+                            Pradesh</a></b>. A driven and enthusiastic
+                    individual, I believe in
+                    the power of hard work, passion, and continuous learning to shape a meaningful journey. With a
+                    strong foundation in Object-Oriented Programming and an ongoing exploration of Data Structures and
+                    Algorithms, I thrive on problem-solving and real-world solution development.
+                </p>
+                <span class="para-hidden">
+                    <p class="para">
+                        My journey in the world of technology began with a fascination for coding, which has evolved
+                        into a burning desire to leverage it for the betterment of our world. As an IoT enthusiast, I'm
+                        captivated by the potential of interconnected devices to revolutionize industries and improve
+                        lives. Simultaneously, my aspiration to become a data science professional fuels my curiosity
+                        about harnessing data's insights to drive impactful decisions.
+                    </p>
+                    <p class="para">
+                        Having embarked on this journey, I've already delved into the realm of frontend web development,
+                        having successfully grasped HTML and CSS, and I'm now immersed in mastering the nuances of
+                        JavaScript. My toolkit also includes a strong foundation in Object-Oriented Programming, a skill
+                        I've diligently honed.
+                    </p>
+                    <p class="para">
+                        Yet, my curiosity knows no bounds. As I delve deeper into my studies, I'm currently engrossed in
+                        the intricate world of Data Structures and Algorithms, a crucial area that underpins effective
+                        problem-solving. The thrill of addressing challenges head-on and crafting real-world solutions
+                        is what keeps my passion alive.
+                    </p>
+                    <p class="para">
+                        Beyond the realm of technology, I'm an ardent problem solver, always seeking innovative ways to
+                        make a positive impact on the lives around me. Every problem is a puzzle, and every solution
+                        brings me closer to my goal of creating tangible change.
+                    </p>
+                    <p class="para">
+                        So, welcome to my portfolio. Here, you'll witness my journey, my growth, and my commitment to
+                        turning my passion into action. Join me, as I continue to explore, learn, and create in this
+                        ever-evolving landscape of technology and beyond.
+                    </p>
+                    <p class="para">
+                        I'm excited to collaborate with like-minded individuals who share my enthusiasm. Together, we
+                        can shape the future.
+                    </p>
+                    <p class="para">
+                        <b>Sincerely,<br>
+                            Saksham Jain</b>
+                    </p>
+                </span>
+                <div class="about-btn">
+                    <a href="/MY resume.pdf" target="_blank">
+                        <div class="download-btn">
+                            <p><i class="fa fa-file-pdf-o"></i>Download CV</p>
+                        </div>
+                    </a>
+                    <div class="read-more-btn" onclick="display_para()">
+                        <p>Read More</p>
+                        <i class="fa fa-angle-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="about-img">
+                <img src="./images/logo-white.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Top Skills -->
+    <section id="skills">
+        <div class="skills-head">
+            <h3>Top Skills</h3>
+        </div>
+        <div class="skills-cards">
+            <div class="skill" id="skill-1">
+                <div class="skill-card-logo">
+                    <img src="./images/cpp_logo.svg" alt="">
+                </div>
+                <div class="skill-card-head">
+                    <h2>C++</h2>
+                </div>
+                <div class="skill-card-content">
+                    <ul>
+                        <li>
+                            <p>Object-Oriented Programmming using C++</p>
+                        </li>
+                        <li>
+                            <p>5 Stars on Hackerrank</p>
+                        </li>
+                        <li>
+                            <p>Data Structures through C++</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="skill" id="skill-2">
+                <div class="skill-card-logo">
+                    <img src="./images/problem_solving_logo.svg" alt="">
+                </div>
+                <div class="skill-card-head">
+                    <h2>Problem Solving</h2>
+                </div>
+                <div class="skill-card-content">
+                    <ul>
+                        <li>
+                            <p>Solving Problems Consistently on Leetcode and Codechef</p>
+                        </li>
+                        <li>
+                            <p>Programming for Problem Sonlving 1 - Codechef</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="skill" id="skill-3">
+                <div class="skill-card-logo">
+                    <img src="./images/html_logo.svg" alt="">
+                </div>
+                <div class="skill-card-head">
+                    <h2>HTML 5</h2>
+                </div>
+                <div class="skill-card-content">
+                    <ul>
+                        <li>
+                            <p>Completed Intermediate HTML for Web Development</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="skill" id="skill-4">
+                <div class="skill-card-logo">
+                    <img src="./images/css_logo.svg" alt="">
+                </div>
+                <div class="skill-card-head">
+                    <h2>CSS 3</h2>
+                </div>
+                <div class="skill-card-content">
+                    <ul>
+                        <li>
+                            <p>Completed Intermediate CSS for Web Development</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="skill" id="skill-5">
+                <div class="skill-card-logo">
+                    <img src="./images/javascript_logo.svg" alt="">
+                </div>
+                <div class="skill-card-head">
+                    <h2>Javascript</h2>
+                </div>
+                <div class="skill-card-content">
+                    <ul>
+                        <li>
+                            <p>Learning Javascript Consistently</p>
+                        </li>
+                        <li>
+                            <p>Focusing on NodeJs and ReactJs</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="skill" id="skill-6">
+                <div class="skill-card-logo">
+                    <img src="./images/python_logo.svg" alt="">
+                </div>
+                <div class="skill-card-head">
+                    <h2>Python</h2>
+                </div>
+                <div class="skill-card-content">
+                    <ul>
+                        <li>
+                            <p>4 Stars on Hackerrank</p>
+                        </li>
+                        <li>
+                            <p>Doing Micropython on Raspberry Pi Pico W</p>
+                        </li>
+                        <li>
+                            <p>Learning to apply on Data Science and Machine Learning</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="projects-head">
+            <h3>Projects</h3>
+        </div>
+        <div class="project-cards-container">
+            <div class="project-card" id="project-card-1">
+                <div class="project-title">
+                    <h2>Netflix Login Page Clone</h2>
+                </div>
+                <div class="project-desc">
+                    <p>I created a clone of Netflix Login Page as my first Web Development Project.</p>
+                    <div class="project-btn">
+                        <a href="https://sakshamjain0464.github.io/Netflix-Login-page-cline-using-HTML-and-CSS/"
+                            target="_blank">
+                            <div class="view-project">
+                                <p>View Project <i class="fa fa-external-link"></i></p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/sakshamjain0464/Netflix-Login-page-cline-using-HTML-and-CSS"
+                            target="_blank">
+                            <div class="view-code" target="_blank">
+                                <p>View Code <i class="fa fa-github"></i></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" id="project-card-2">
+                <div class="project-title">
+                    <h2>IoT Smart Dustbin</h2>
+                </div>
+                <div class="project-desc">
+                    <p>I created a Smart Dustbin using Raspberry Pi Pico W and Ultrasonic Sensor.</p>
+                    <div class="project-btn">
+                        <a href="./images/smart_dustbin_video.mp4" target="_blank">
+                            <div class="view-project">
+                                <p>View Project <i class="fa fa-external-link"></i></p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/sakshamjain0464/Smart-Dustbin-IoT-Project" target="_blank">
+                            <div class="view-code">
+                                <p>View Code <i class="fa fa-github"></i></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" id="project-card-3">
+                <div class="project-title">
+                    <h2>Sofia Generative AI Landing Page</h2>
+                </div>
+                <div class="project-desc">
+                    <p>I created a demo Landing page of a Generative AI named Sofia using HTML and CSS.</p>
+                    <div class="project-btn">
+                        <a href="https://sakshamjain0464.github.io/Sofia-Generative-AI-landing-page/" target="_blank">
+                            <div class="view-project">
+                                <p>View Project <i class="fa fa-external-link"></i></p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/sakshamjain0464/Sofia-Generative-AI-landing-page" target="_blank">
+                            <div class="view-code">
+                                <p>View Code <i class="fa fa-github"></i></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" id="project-card-4">
+                <p>More Projects Coming Soon<span>....</span></p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-head">
+            <h3>Contact Me</h3>
+        </div>
+        <div class="contact-form">
+            <div class="contact-form-head">
+                <h2>Send Message</h2>
+            </div>
+            <form action="" onsubmit="send_mail()">
+                <label for="name">Name</label>
+                <input type="text" name="" id="name" placeholder="Your Name">
+                <label for="e-mail">E-mail</label>
+                <input type="email" name="" id="e-mail" placeholder="Your E-mail">
+                <label for="message">Message</label>
+                <textarea name="" id="message" cols="30" rows="5" placeholder="Message"></textarea>
+                <input type="submit" class="submit-btn" value="Send" onclick="send_mail()">
+            </form>
+        </div>
+        <div class="or">
+            <p>OR</p>
+        </div>
+        <div class="contacts">
+            <a href="tel:+916264241048" target="_blank">
+                <div class="contact call">
+                    <i class="fa fa-phone"></i>
+                    <p>Call Me</p>
+                </div>
+            </a>
+            <a href="mailto:work.saksham@yahoo.com" target="_blank">
+                <div class="contact mail">
+                    <i class="fa fa-envelope"></i>
+                    <p>Mail Me</p>
+                </div>
+            </a>
+            <a href="http://wa.me/+916264241048" target="_blank">
+                <div class="contact whatsapp">
+                    <i class="fa fa-whatsapp"></i>
+                    <p>WhatsApp</p>
+                </div>
+            </a>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-txt">
+                <p>&copy; Designed By <b>Saksham Jain</b></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<!-- Javascript -->
+<script src="script.js"></script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    // Javascript for Typing Animation
+    var typing = new Typed('#typing', {
+        strings: ['Web Developer', 'Student @AUMP Gwalior', 'Community Lead @Codeate', 'IoT Enthusiast', 'Data Science Learner'],
+        typeSpeed: 20,
+    });
+</script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    // Javascript for contact form e-mail
+    function send_mail() {
+        Email.send({
+            Host: "smtp.elasticemail.com",
+            Username: "sakshamjain0464@gmail.com",
+            Password: "5D9F15D0D7C0C9059D2B8AED0C6A8CA2394C",
+            To: "work.saksham@yahoo.com",
+            From: "sakshamjain0464@gmail.com",
+            Subject: "Mail from Portfolio Website",
+            Body: `From : ${document.getElementById('name').value}\nE-mail : ${document.getElementById('e-mail').value}\nMessage : ${document.getElementById('message').value}`
+        }).then(
+            message => alert(message),
+            alert("Message Sent!")
+        );
+        }
+</script>
+</html>

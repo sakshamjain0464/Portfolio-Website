@@ -1,0 +1,12 @@
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    box-shadow:  4px 8px 10px rgba(0, 0, 0, 0.2);
+    z-index: 30;
+}
+.icon-rotate{
+    transform: rotate(180deg);
+}
+.visible-para{
+    display: block;
+}
