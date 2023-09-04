@@ -418,8 +418,7 @@
             Subject: "Mail from Portfolio Website",
             Body: `From : ${document.getElementById('name').value}\nE-mail : ${document.getElementById('e-mail').value}\nMessage : ${document.getElementById('message').value}`
         }).then(
-            message => alert(message),
-            alert("Message Sent!")
+            message => alert(message)
         );
         }
 </script>
