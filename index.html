@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" , user-scale="none">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="js_classes.css">
@@ -16,7 +16,13 @@
 
 <body>
     <!-- Navbar -->
+    <div class="hamburger" onclick="open_nav()">
+        <i class="fa fa-bars"></i>
+    </div>
     <nav>
+        <div class="hamburger-close" onclick="close_nav()">
+            <i class="fa fa-remove"></i>
+        </div>
         <div class="nav-content">
             <div class="logo-container">
                 <img src="./images/logo-black.jpg" alt="Logo">
@@ -24,11 +30,11 @@
             </div>
             <div class="nav-links-container">
                 <ul>
-                    <li class="nav-links" id="navlink1"><a href="#home">Home</a></li>
-                    <li class="nav-links" id="navlink2"><a href="#about">About</a></li>
-                    <li class="nav-links" id="navlink3"><a href="#skills">Skills</a></li>
-                    <li class="nav-links" id="navlink4"><a href="#projects">Projects</a></li>
-                    <li class="nav-links" id="navlink5"><a href="#contact">Contact Me</a></li>
+                    <li class="nav-links" id="navlink1" onclick="close_nav()"><a href="#home">Home</a></li>
+                    <li class="nav-links" id="navlink2" onclick="close_nav()"><a href="#about">About</a></li>
+                    <li class="nav-links" id="navlink3" onclick="close_nav()"><a href="#skills">Skills</a></li>
+                    <li class="nav-links" id="navlink4" onclick="close_nav()"><a href="#projects">Projects</a></li>
+                    <li class="nav-links" id="navlink5" onclick="close_nav()"><a href="#contact">Contact Me</a></li>
                 </ul>
             </div>
         </div>
@@ -48,7 +54,7 @@
                     <i class="fa fa-linkedin"></i>
                 </div>
             </a>
-            <a href="https://www.linkedin.com/in/saksham-jain-15bab2205/" target="_blank">
+            <a href="https://instagram.com/__saksham_jain?utm_source=qr&igshid=MzNlNGNkZWQ4Mg== target="_blank">
                 <div class="socials" id="social-3">
                     <i class="fa fa-instagram"></i>
                 </div>
@@ -255,9 +261,6 @@
                         <li>
                             <p>Doing Micropython on Raspberry Pi Pico W</p>
                         </li>
-                        <li>
-                            <p>Learning to apply on Data Science and Machine Learning</p>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -399,7 +402,7 @@
     // Javascript for Typing Animation
     var typing = new Typed('#typing', {
         strings: ['Web Developer', 'Student @AUMP Gwalior', 'Community Lead @Codeate', 'IoT Enthusiast', 'Data Science Learner'],
-        typeSpeed: 20,
+        typeSpeed: 50,
     });
 </script>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
